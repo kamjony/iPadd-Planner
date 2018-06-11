@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		891E9E56F5414E4F169BBC4A /* Pods_iPadd_Planner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9F6B9E1A2C70FE8D28B556 /* Pods_iPadd_Planner.framework */; };
+		9117B63520AF2C5300A57120 /* EditCourseworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9117B63420AF2C5300A57120 /* EditCourseworkViewController.swift */; };
+		9117B63720AF353D00A57120 /* EditTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9117B63620AF353D00A57120 /* EditTaskViewController.swift */; };
+		912F1B2C20ADB0FA00F442F4 /* AddToReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912F1B2B20ADB0FA00F442F4 /* AddToReminderViewController.swift */; };
+		9162133020A317E1002677F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9162132F20A317E1002677F4 /* AppDelegate.swift */; };
+		9162133520A317E2002677F4 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9162133420A317E2002677F4 /* MasterViewController.swift */; };
+		9162133720A317E2002677F4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9162133620A317E2002677F4 /* DetailViewController.swift */; };
+		9162133A20A317E2002677F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9162133820A317E2002677F4 /* Main.storyboard */; };
+		9162133C20A317E2002677F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9162133B20A317E2002677F4 /* Assets.xcassets */; };
+		9162133F20A317E2002677F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9162133D20A317E2002677F4 /* LaunchScreen.storyboard */; };
+		9162134820A31832002677F4 /* CourseworkModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9162134620A31832002677F4 /* CourseworkModel.xcdatamodeld */; };
+		9162134C20A31ED5002677F4 /* AddCourseworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9162134B20A31ED5002677F4 /* AddCourseworkViewController.swift */; };
+		9162134E20A3235C002677F4 /* TopCourseworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9162134D20A3235C002677F4 /* TopCourseworkViewController.swift */; };
+		9189EDEC20B1F5C500B69D17 /* CustomProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9189EDEB20B1F5C500B69D17 /* CustomProgressView.swift */; };
+		9189EDEE20B2272800B69D17 /* ProgressBarDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9189EDED20B2272800B69D17 /* ProgressBarDraw.swift */; };
+		918CB67120AAEC630039F216 /* CustomCourseworkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918CB67020AAEC630039F216 /* CustomCourseworkTableViewCell.swift */; };
+		918CB67420AB04BB0039F216 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 918CB67320AB04BB0039F216 /* EventKit.framework */; };
+		918CB67620AB0CE10039F216 /* AddToCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918CB67520AB0CE10039F216 /* AddToCalendarViewController.swift */; };
+		91CCFCCD20A5A46C009AA6AC /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CCFCCC20A5A46C009AA6AC /* AddTaskViewController.swift */; };
+		91CCFCCF20A5D665009AA6AC /* CustomTaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CCFCCE20A5D665009AA6AC /* CustomTaskTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6FB479320752CCC72D664F92 /* Pods-iPadd Planner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPadd Planner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iPadd Planner/Pods-iPadd Planner.debug.xcconfig"; sourceTree = "<group>"; };
+		9117B63420AF2C5300A57120 /* EditCourseworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCourseworkViewController.swift; sourceTree = "<group>"; };
+		9117B63620AF353D00A57120 /* EditTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskViewController.swift; sourceTree = "<group>"; };
+		912F1B2B20ADB0FA00F442F4 /* AddToReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToReminderViewController.swift; sourceTree = "<group>"; };
+		9162132C20A317E1002677F4 /* iPadd Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPadd Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9162132F20A317E1002677F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9162133420A317E2002677F4 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		9162133620A317E2002677F4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9162133920A317E2002677F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9162133B20A317E2002677F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9162133E20A317E2002677F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9162134020A317E2002677F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9162134720A31832002677F4 /* Coursework.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Coursework.xcdatamodel; sourceTree = "<group>"; };
+		9162134B20A31ED5002677F4 /* AddCourseworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddCourseworkViewController.swift; path = ../AddCourseworkViewController.swift; sourceTree = "<group>"; };
+		9162134D20A3235C002677F4 /* TopCourseworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCourseworkViewController.swift; sourceTree = "<group>"; };
+		9189EDEB20B1F5C500B69D17 /* CustomProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressView.swift; sourceTree = "<group>"; };
+		9189EDED20B2272800B69D17 /* ProgressBarDraw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarDraw.swift; sourceTree = "<group>"; };
+		918CB67020AAEC630039F216 /* CustomCourseworkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCourseworkTableViewCell.swift; sourceTree = "<group>"; };
+		918CB67320AB04BB0039F216 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		918CB67520AB0CE10039F216 /* AddToCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCalendarViewController.swift; sourceTree = "<group>"; };
+		91CCFCCC20A5A46C009AA6AC /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		91CCFCCE20A5D665009AA6AC /* CustomTaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTaskTableViewCell.swift; sourceTree = "<group>"; };
+		AC58B9D72194A5843483A41E /* Pods-iPadd Planner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPadd Planner.release.xcconfig"; path = "Pods/Target Support Files/Pods-iPadd Planner/Pods-iPadd Planner.release.xcconfig"; sourceTree = "<group>"; };
+		FC9F6B9E1A2C70FE8D28B556 /* Pods_iPadd_Planner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iPadd_Planner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9162132920A317E1002677F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				918CB67420AB04BB0039F216 /* EventKit.framework in Frameworks */,
+				891E9E56F5414E4F169BBC4A /* Pods_iPadd_Planner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9162132320A317E1002677F4 = {
+			isa = PBXGroup;
+			children = (
+				9162132E20A317E1002677F4 /* iPadd Planner */,
+				9162132D20A317E1002677F4 /* Products */,
+				918CB67220AB04BB0039F216 /* Frameworks */,
+				F5499EA93C50A854341BAFCB /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		9162132D20A317E1002677F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9162132C20A317E1002677F4 /* iPadd Planner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9162132E20A317E1002677F4 /* iPadd Planner */ = {
+			isa = PBXGroup;
+			children = (
+				9162132F20A317E1002677F4 /* AppDelegate.swift */,
+				9162134620A31832002677F4 /* CourseworkModel.xcdatamodeld */,
+				9162133420A317E2002677F4 /* MasterViewController.swift */,
+				9162133620A317E2002677F4 /* DetailViewController.swift */,
+				9162133820A317E2002677F4 /* Main.storyboard */,
+				912F1B2B20ADB0FA00F442F4 /* AddToReminderViewController.swift */,
+				9162134D20A3235C002677F4 /* TopCourseworkViewController.swift */,
+				9162133B20A317E2002677F4 /* Assets.xcassets */,
+				9162133D20A317E2002677F4 /* LaunchScreen.storyboard */,
+				9162134B20A31ED5002677F4 /* AddCourseworkViewController.swift */,
+				9162134020A317E2002677F4 /* Info.plist */,
+				91CCFCCC20A5A46C009AA6AC /* AddTaskViewController.swift */,
+				91CCFCCE20A5D665009AA6AC /* CustomTaskTableViewCell.swift */,
+				918CB67020AAEC630039F216 /* CustomCourseworkTableViewCell.swift */,
+				918CB67520AB0CE10039F216 /* AddToCalendarViewController.swift */,
+				9117B63420AF2C5300A57120 /* EditCourseworkViewController.swift */,
+				9117B63620AF353D00A57120 /* EditTaskViewController.swift */,
+				9189EDEB20B1F5C500B69D17 /* CustomProgressView.swift */,
+				9189EDED20B2272800B69D17 /* ProgressBarDraw.swift */,
+			);
+			path = "iPadd Planner";
+			sourceTree = "<group>";
+		};
+		918CB67220AB04BB0039F216 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				918CB67320AB04BB0039F216 /* EventKit.framework */,
+				FC9F6B9E1A2C70FE8D28B556 /* Pods_iPadd_Planner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5499EA93C50A854341BAFCB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FB479320752CCC72D664F92 /* Pods-iPadd Planner.debug.xcconfig */,
+				AC58B9D72194A5843483A41E /* Pods-iPadd Planner.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9162132B20A317E1002677F4 /* iPadd Planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9162134320A317E2002677F4 /* Build configuration list for PBXNativeTarget "iPadd Planner" */;
+			buildPhases = (
+				1A511D4D73EDDEE0395F8986 /* [CP] Check Pods Manifest.lock */,
+				9162132820A317E1002677F4 /* Sources */,
+				9162132920A317E1002677F4 /* Frameworks */,
+				9162132A20A317E1002677F4 /* Resources */,
+				DFB411C891E9567782193FC4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iPadd Planner";
+			productName = "iPadd Planner";
+			productReference = 9162132C20A317E1002677F4 /* iPadd Planner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9162132420A317E1002677F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Md Kamrul Amin";
+				TargetAttributes = {
+					9162132B20A317E1002677F4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9162132720A317E1002677F4 /* Build configuration list for PBXProject "iPadd Planner" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9162132320A317E1002677F4;
+			productRefGroup = 9162132D20A317E1002677F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9162132B20A317E1002677F4 /* iPadd Planner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9162132A20A317E1002677F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9162133F20A317E2002677F4 /* LaunchScreen.storyboard in Resources */,
+				9162133C20A317E2002677F4 /* Assets.xcassets in Resources */,
+				9162133A20A317E2002677F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A511D4D73EDDEE0395F8986 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iPadd Planner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFB411C891E9567782193FC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iPadd Planner/Pods-iPadd Planner-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MBCircularProgressBar/MBCircularProgressBar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBCircularProgressBar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iPadd Planner/Pods-iPadd Planner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9162132820A317E1002677F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9162133020A317E1002677F4 /* AppDelegate.swift in Sources */,
+				918CB67120AAEC630039F216 /* CustomCourseworkTableViewCell.swift in Sources */,
+				9117B63520AF2C5300A57120 /* EditCourseworkViewController.swift in Sources */,
+				91CCFCCF20A5D665009AA6AC /* CustomTaskTableViewCell.swift in Sources */,
+				9162133520A317E2002677F4 /* MasterViewController.swift in Sources */,
+				9162134E20A3235C002677F4 /* TopCourseworkViewController.swift in Sources */,
+				9189EDEE20B2272800B69D17 /* ProgressBarDraw.swift in Sources */,
+				9162134C20A31ED5002677F4 /* AddCourseworkViewController.swift in Sources */,
+				912F1B2C20ADB0FA00F442F4 /* AddToReminderViewController.swift in Sources */,
+				9117B63720AF353D00A57120 /* EditTaskViewController.swift in Sources */,
+				9162133720A317E2002677F4 /* DetailViewController.swift in Sources */,
+				918CB67620AB0CE10039F216 /* AddToCalendarViewController.swift in Sources */,
+				9162134820A31832002677F4 /* CourseworkModel.xcdatamodeld in Sources */,
+				9189EDEC20B1F5C500B69D17 /* CustomProgressView.swift in Sources */,
+				91CCFCCD20A5A46C009AA6AC /* AddTaskViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9162133820A317E2002677F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9162133920A317E2002677F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9162133D20A317E2002677F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9162133E20A317E2002677F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9162134120A317E2002677F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9162134220A317E2002677F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9162134420A317E2002677F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FB479320752CCC72D664F92 /* Pods-iPadd Planner.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "iPadd Planner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.w1535035.iPadd-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9162134520A317E2002677F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC58B9D72194A5843483A41E /* Pods-iPadd Planner.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "iPadd Planner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.w1535035.iPadd-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9162132720A317E1002677F4 /* Build configuration list for PBXProject "iPadd Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9162134120A317E2002677F4 /* Debug */,
+				9162134220A317E2002677F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9162134320A317E2002677F4 /* Build configuration list for PBXNativeTarget "iPadd Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9162134420A317E2002677F4 /* Debug */,
+				9162134520A317E2002677F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9162134620A31832002677F4 /* CourseworkModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9162134720A31832002677F4 /* Coursework.xcdatamodel */,
+			);
+			currentVersion = 9162134720A31832002677F4 /* Coursework.xcdatamodel */;
+			path = CourseworkModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9162132420A317E1002677F4 /* Project object */;
+}
